@@ -40,7 +40,7 @@ public class search
             if ((line).equals(keyword)){
                 found++;
             }  
-            found++;
+            
         }
         while(((line = br.readLine())!=null) && (found==0));
         if (found>0){
